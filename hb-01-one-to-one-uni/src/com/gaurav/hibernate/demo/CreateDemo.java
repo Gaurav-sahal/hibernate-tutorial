@@ -25,25 +25,26 @@ public class CreateDemo {
 		try {
 			
 			//create the objects
-/*			Instructor tempInstructor = 
+			Instructor tempInstructor1 = 
 					new Instructor("Gaurav", "Sahal", "gaurav.sahal10@gmail.com");
 			
-			InstructorDetail tempInstructorDetail = 
+			InstructorDetail tempInstructorDetail1 = 
 					new InstructorDetail(
 							"http://www.youtube.com/beginnersbaggage",
 							"Luv 2 code!!!");
-*/
+
 			
-			Instructor tempInstructor = 
+			Instructor tempInstructor2 = 
 					new Instructor("Chad", "Darby", "darby@luv2code.com");
 			
-			InstructorDetail tempInstructorDetail = 
+			InstructorDetail tempInstructorDetail2 = 
 					new InstructorDetail(
 							"http://www.luv2code.com/youtube",
 							"Luv coding!!!");
 			
 			//associate the objects
-			tempInstructor.setInstructorDetail(tempInstructorDetail);
+			tempInstructor1.setInstructorDetail(tempInstructorDetail1);
+			tempInstructor2.setInstructorDetail(tempInstructorDetail2);
 			
 			//start a transaction
 			session.beginTransaction();
@@ -53,8 +54,11 @@ public class CreateDemo {
 			//Note: this will also save the details object
 			//because of CascadeType.ALL
 			//
-			System.out.println("Saving Instructor: "+ tempInstructor);
-			session.save(tempInstructor);
+			System.out.println("Saving Instructor: "+ tempInstructor1);
+			session.save(tempInstructor1);
+			
+			System.out.println("Saving Instructor: "+ tempInstructor2);
+			session.save(tempInstructor2);
 			
 			//commit transaction
 			session.getTransaction().commit();
