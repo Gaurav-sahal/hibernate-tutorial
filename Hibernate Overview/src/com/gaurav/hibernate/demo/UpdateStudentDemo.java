@@ -20,7 +20,7 @@ public class UpdateStudentDemo {
 		Session session = factory.getCurrentSession();
 		
 		try {
-			int studentId = 1;
+			int studentId = 4;
 			
 			// now get a new session and start transaction
 			session = factory.getCurrentSession();

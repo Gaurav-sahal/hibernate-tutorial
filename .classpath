@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="hb-01-one-to-one-uni/src"/>
+	<classpathentry kind="src" path="hb-02-one-to-one-bi/src"/>
+	<classpathentry kind="src" path="hb-03-one-to-many/src"/>
+	<classpathentry kind="src" path="hb-04-one-to-many-uni/src"/>
+	<classpathentry kind="src" path="hb-05-many-to-many/src"/>
+	<classpathentry kind="src" path="hb-eager-vs-lazy-demo/src"/>
+	<classpathentry kind="src" path="Hibernate Overview/src"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-01-one-to-one-uni/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-02-one-to-one-bi/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-03-one-to-many/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-04-one-to-many-uni/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-05-many-to-many/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="hb-eager-vs-lazy-demo/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/byte-buddy-1.12.7.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/classmate-1.5.1.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/hibernate-commons-annotations-5.1.2.Final.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/hibernate-core-5.6.5.Final.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/jandex-2.4.2.Final.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/jboss-logging-3.4.3.Final.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="Hibernate Overview/lib/txw2-2.3.1.jar"/>
+	<classpathentry kind="output" path="Hibernate Overview/bin"/>
+</classpath>
